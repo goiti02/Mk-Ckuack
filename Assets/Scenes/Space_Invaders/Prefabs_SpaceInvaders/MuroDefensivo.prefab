@@ -1,0 +1,633 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2006010794509359498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8465502931715415619}
+  m_Layer: 0
+  m_Name: MuroDefensivo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8465502931715415619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006010794509359498}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 848499519475494196}
+  - {fileID: 1637124094880219442}
+  - {fileID: 1300590145480880935}
+  - {fileID: 1035199598301850467}
+  - {fileID: 6071380275783245138}
+  - {fileID: 8100762871529789747}
+  - {fileID: 5080623693798852572}
+  - {fileID: 953836642180919181}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &354668948775174359
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8465502931715415619}
+    m_Modifications:
+    - target: {fileID: 7149720328855285617, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_Name
+      value: PiezaMuro_SpaceInvaders (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3989.705
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.9966
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07384768
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+--- !u!4 &8100762871529789747 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+  m_PrefabInstance: {fileID: 354668948775174359}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2361673322077373622
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8465502931715415619}
+    m_Modifications:
+    - target: {fileID: 7149720328855285617, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_Name
+      value: PiezaMuro_SpaceInvaders (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3988.741
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.9868
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07384768
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+--- !u!4 &6071380275783245138 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+  m_PrefabInstance: {fileID: 2361673322077373622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3604490736042483256
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8465502931715415619}
+    m_Modifications:
+    - target: {fileID: 7149720328855285617, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_Name
+      value: PiezaMuro_SpaceInvaders (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3989.711
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.4822
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07384768
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+--- !u!4 &5080623693798852572 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+  m_PrefabInstance: {fileID: 3604490736042483256}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7079521029634021590
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8465502931715415619}
+    m_Modifications:
+    - target: {fileID: 7149720328855285617, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_Name
+      value: PiezaMuro_SpaceInvaders (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3988.1929
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.4822
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07384768
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+--- !u!4 &1637124094880219442 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+  m_PrefabInstance: {fileID: 7079521029634021590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7389042178442209987
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8465502931715415619}
+    m_Modifications:
+    - target: {fileID: 7149720328855285617, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_Name
+      value: PiezaMuro_SpaceInvaders (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3988.701
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.4822
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07384768
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+--- !u!4 &1300590145480880935 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+  m_PrefabInstance: {fileID: 7389042178442209987}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8771618105997538921
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8465502931715415619}
+    m_Modifications:
+    - target: {fileID: 7149720328855285617, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_Name
+      value: PiezaMuro_SpaceInvaders (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3989.2466
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.9868
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07384768
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+--- !u!4 &953836642180919181 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+  m_PrefabInstance: {fileID: 8771618105997538921}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8852526427699376775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8465502931715415619}
+    m_Modifications:
+    - target: {fileID: 7149720328855285617, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_Name
+      value: PiezaMuro_SpaceInvaders (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3989.2063
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.4822
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07384768
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+--- !u!4 &1035199598301850467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+  m_PrefabInstance: {fileID: 8852526427699376775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9169822245386908880
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8465502931715415619}
+    m_Modifications:
+    - target: {fileID: 7149720328855285617, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_Name
+      value: PiezaMuro_SpaceInvaders (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.30681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3988.1875
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.9966
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07384768
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+--- !u!4 &848499519475494196 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396883915971746276, guid: 1b9e3a2369e889a4b858a8f4855e04ac, type: 3}
+  m_PrefabInstance: {fileID: 9169822245386908880}
+  m_PrefabAsset: {fileID: 0}
